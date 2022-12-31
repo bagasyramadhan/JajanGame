@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--      cdm font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+
+    <!--  <link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/bootstrap-5/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+</head>
+<body style="background: #505C86">
+<section>
+    <nav class="navbar navbar-expand-lg py-3" id="style-nav">
+        <div class="container-fluid">
+            <a class="ms-lg-5" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" style="color: white"></i>
+            </a>
+            <!--              menambahkan image brand-->
+            <a class=" ms-lg-3 navbar-brand" href="#" style="color:white; font-weight: bold;"><img src="assets/images/icon-brand.png" alt="" style="width:35px">JAJAN GAME</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 30px;">
+                    <i class="fa fa-search fa-2x me-lg-3" style="color: white" aria-hidden="true"></i>
+                    <i class="fa fa-bell fa-2x me-lg-3" style="color: white" aria-hidden="true"></i>
+                    <i class="fa fa-user me-lg-5 fa-2x" style="color: white" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title fw-bold" id="offcanvasExampleLabel">JAJANGAME</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                <button class="btn btn-primary" type="button">Login</button>
+                <button class="btn btn-secondary" type="button" style="">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h2 class="txt text-center mt-lg-5">Riwayat Pemesanan</h2>
+
+<!--  create card with image and judul game berada pada posisi tengah dan harga pada sebelah gambar buat 3 kebawah-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-4 gx-0">
+                            <img src="assets/images/icon-ml.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Judul Game</h5>
+                                <p class="card-text">Rp. 100.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="row">
+                        <div class="col-md-4 gx-0">
+                            <img src="assets/images/icon-ml.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Judul Game</h5>
+                                <p class="card-text">Rp. 100.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-lg-5"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--create copyright-->
+<div class="container-fluid " style="background-color: #1c1c1c">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center mt-3" style="color: white">© 2021 JAJANGAME INDONESIA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script src="assets/bootstrap-5/js/bootstrap.min.js"></script>
+</html>

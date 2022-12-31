@@ -1,0 +1,93 @@
+#style-nav {
+    background-color: #9AA1E1;
+}
+
+/*berikan card, card-body berwarna merah*/
+.card-body{
+    background-color: rgba(217, 217, 217, 0.15);
+    border-radius: 30px;
+}
+
+.txt{
+    color: white;
+}
+
+.txt-dmd{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.txt-pmb{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#buttonL{
+    border-radius: 30px;
+    width: 150px;
+    background: #9AA1E1;
+    border: none;
+
+}
+
+.cd-riyawat{
+    background-color: #9AA1E1 !important;
+    border-radius: 30px !important;
+}
+.ttl{
+/*    buat text berada dibagian bawah kanan*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cd-img{
+    border-radius: 30px !important;
+    padding: 10px;
+}
+
+#buttonR{
+    border-radius: 30px;
+    width: 300px;
+    background: white;
+    color: #1c1c1c;
+    border: none;
+}
+#form3Example1, #form3Example2, .kartu {
+    border-radius: 30px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+/*class kartu hover scale*/
+.kartu:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.tbl_beli{
+    position: absolute;
+    border-radius: 30px !important;
+}
+
+.icon-foot{
+    width: 300px;
+}
+.ipt-email, .ipt-pass{
+    border-radius: 30px !important;
+}
+
+.txt-lg{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--      cdm font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/bootstrap-5/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+</head>
+<body style="background: #505C86">
+<section>
+    <nav class="navbar navbar-expand-lg py-3 fixed-top" id="style-nav">
+        <div class="container-fluid">
+            <a class=" ms-lg-3 navbar-brand ms-lg-5" href="index.php" style="color:white; font-weight: bold;"><img src="assets/images/icon-brand.png" alt="" style="width:35px">JAJAN GAME</a>
+        </div>
+    </nav>
+</section>
+
+
+
+<div class="container">
+<!--    create card bedara pada sisi tengah halaman horizontal maupun vertical-->
+    <div class="row justify-content-center align-items-center" style="height: 100vh">
+        <div class="col-12 col-md-8 col-lg-2 col-xl-9">
+                <div class="card-body p-5 mt-5">
+                    <h4 class="txt-lg text-center mb-5 fw-bold">Register</h4>
+                    <form action="register.php" method="post">
+                        <div class="form-outline mb-4">
+                            <label class="txt form-label"  for="form3Example3">Email address</label>
+                            <input type="email" id="form3Example3" name="email"  placeholder="Masukan Email Anda" class="ipt-email form-control form-control-lg" />
+                        </div>
+<!--                        password-->
+                        <div class="form-outline mb-4">
+                            <label class="txt form-label" for="form3Example4">Password</label>
+                            <input type="password" id="form3Example4" name="password" placeholder="Masukan Password Anda" class="ipt-pass form-control form-control-lg" />
+                        </div>
+<!--                        saya menyetujui ketentuan yang berlaku checkbox-->
+                            <input
+                                    class="form-check-input me-2"
+                                    type="checkbox"
+                                    value=""
+                                    id="form2Example3"
+                                    required
+                            />
+                            <label class="txt form-check-label" for="form2Example3">
+                                Saya menyetujui ketentuan yang berlaku
+                            </label>
+<!--                        button login and sign with google-->
+                        <div class="d-grid gap">
+                            <div class="text-center">
+                                <button type="submit" id="buttonL" class="btn btn-primary btn-lg mt-1">
+                                    Buat Akun
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+<script src="assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script src="assets/bootstrap-5/js/bootstrap.min.js"></script>
+</html>
